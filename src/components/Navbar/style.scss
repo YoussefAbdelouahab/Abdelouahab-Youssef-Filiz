@@ -1,0 +1,64 @@
+//Style
+@import "../../index.css";
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 48.5px;
+
+    .nav_link {
+        padding: 38px 0px;
+
+        img {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            gap: 43.21px;
+
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline;
+
+            }
+
+            a {
+                text-decoration: none;
+                color: #303031;
+                font-family: 'Proxima Nova';
+                font-weight: 500;
+            }
+
+            .green {
+                color: #71A894;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        .nav_link {
+            ul {
+                display: none;
+            }
+
+            button {
+                background-color: transparent;
+                border: none;
+            }
+
+            img {
+                display: block;
+                width: 48px;
+                height: 48px;
+            }
+        }
+    }
+
+}

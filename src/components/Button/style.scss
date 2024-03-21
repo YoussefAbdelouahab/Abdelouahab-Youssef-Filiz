@@ -1,0 +1,25 @@
+@import "../../index.css";
+
+.contact_btn {
+    background-color: #71A894;
+    padding: 20px 24px;
+    border-radius: 46px;
+    border: none;
+    width: fit-content;
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+
+    a {
+        font-family: 'Proxima Nova';
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+}
+
+.contact_btn:hover {
+    transform: translateY(-10px);
+}
